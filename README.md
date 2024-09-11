@@ -3,7 +3,6 @@
 
 QUESTAO 1  
 
-
 def pertence_sequencia_fibonacci(n):
   
     fib = [0, 1]
@@ -12,12 +11,14 @@ def pertence_sequencia_fibonacci(n):
         fib.append(fib[-1] + fib[-2])
    
     if n in fib:
+        return f"O número {n} pertence à sequência de Fibonacci."
     else:
         return f"O número {n} NÃO pertence à sequência de Fibonacci."
 
 
 numero = 21 
 print(pertence_sequencia_fibonacci(numero))
+
 
 
 QUESTAO 2 
