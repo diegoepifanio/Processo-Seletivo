@@ -44,7 +44,18 @@ print(verifica_letra_a(string_teste))
 
 QUESTAO 3 
 
+# Definindo as variáveis
+INDICE = 12
+SOMA = 0
+K = 1
 
+# Loop que continua até K ser menor que INDICE
+while K < INDICE:
+    K += 1  # Incrementa K
+    SOMA += K  # Soma o valor de K à SOMA
+
+# Imprime o valor final de SOMA
+print(SOMA)
 
 
 
